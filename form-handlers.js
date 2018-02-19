@@ -8,4 +8,5 @@ function capture(){
   console.log("That's a swell name " + firstName)
   var lastName =document.custInfo.last.value
   console.log("Altogether, that sounds great " + firstName + lastName)
+  alert("You're all signed up " + firstName + lastName);
 }
