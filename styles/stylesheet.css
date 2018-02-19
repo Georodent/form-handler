@@ -2,9 +2,11 @@
   padding: 0;
   margin: 0;
 }
+
 img  {
   max-width: 100%;
 }
+
 header  {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Pebbleswithquarzite.jpg/1200px-Pebbleswithquarzite.jpg");
   background-repeat: no-repeat;
@@ -12,21 +14,22 @@ header  {
   padding-top: .8em;
   margin: .5em .5em 1em .5em;
   border: 4px solid black; 
+  box-shadow: 5px 5px 5px #B9BABF;
 }
 
 h1  {
   text-align: center;
-  font-family: 'Ultra', serif;
   text-decoration: underline;
   margin: 0 0 1em 0;
   font-size: 200%;
   color: white;
-  
+  font-family: 'Ultra', serif;
 }
 
 body  {
   background-color: #7F7744;
 }
+
 .rainier  {
   display: flex;
   flex-wrap: wrap;
@@ -35,25 +38,29 @@ body  {
   margin: auto;
   width: 90%;
   height: 15em;
-  
+  box-shadow: 5px 5px 5px #B9BABF;
 }
+
 h3  {
-  margin-left: 650px;
+  text-align: center;
 }
+
 label  {
   font-family: 'Ultra', serif;
 }
+
 form  {
   margin-left: 2em;
-  text-align: center;
-  
+  text-align: center; 
 }
+
 .button {
   background-color: #BF2E19;
   font-family: 'Ultra', serif;
   padding: .5em;
   margin: .5rem 0 0 0;
 }
+
 input  {
   background-color: #E5D4B3;
   box-shadow: 2px 2px 2px black;
@@ -61,16 +68,16 @@ input  {
 
 /*  SECTIONS  */
 .section {
-	clear: both;
-	padding: 0px;
-	margin: 0px;
+  clear: both;
+  padding: 0px;
+  margin: 0px;
 }
 
 /*  COLUMN SETUP  */
 .col {
-	display: block;
-	float:left;
-	margin: 1% 0 1% 1.6%;
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.6%;
 }
 .col:first-child { margin-left: 0; }
 
@@ -89,6 +96,7 @@ input  {
 	.col {  margin: 1% 0 1% 0%; }
 	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
 }
+
 footer  {
   background-image: url("http://www.gonorthwest.com/Washington/cascades/mt_rainier/images/rainier_McAnulty.jpg");
   background-size: cover;
@@ -96,11 +104,12 @@ footer  {
   height: 20em;
   border: 4px solid black;
   margin: .8em 1em .8em 1em;
-  
+  box-shadow: 5px 5px 5px #B9BABF;
 }
+
 h4  {
   font-family: 'Ultra', serif;
   text-align: center;
   font-size: 3em;
-  
+  text-decoration: underline;
 }

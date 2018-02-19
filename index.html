@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta charset="utf-8">
 <head>
   <title>Form-Handlers</title>
   <link href="https://fonts.googleapis.com/css?family=Ultra" rel="stylesheet">
@@ -9,12 +10,14 @@
 </head>
   
 <body>
-  <header class="flex-container">
+  <header>
     <h1>THE SKIES OF MOUNT RAINIER</h1>
   </header> 
   <article>
     <img class="rainier" src="images/rainier.jpg" alt="Picture of Mt Rainier and skyline" title="MOUNT RAINIER">
     <h3>&copy; 2018</h3>
+    
+<!--    This is the beginning of the grid -->
     
     <div class="section group">
       <form name="custInfo" onsubmit="capture()">
@@ -32,16 +35,22 @@
         </div>
         <div class="col span_1_of_3">
           <label>Please enter your last name:
-            <input type="text" name="last">
+            <input type="text"  name="last">
           </label>
             <input class="button" type="submit">
         </div>
       </form>
     </div>
-  </article>
-  <h4>SEE BELOW FOR MORE PICS!</h4>
-  <footer>
     
+<!--    The end of the grid-->
+    
+  </article>
+  
+  <section>
+    <h4>SEE BELOW FOR MORE PICS!</h4>
+  </section>
+  
+  <footer>
   </footer>
 </body> 
   
