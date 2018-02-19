@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Form-Handlers</title>
+  <link href="https://fonts.googleapis.com/css?family=Ultra" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/reset.css">
+  <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+  <script src="form-handlers.js"></script>
+</head>
+  
+<body>
+  <header>
+    <h1>THE SKIES OF MOUNT RAINIER</h1>
+  </header> 
+  <article>
+    <img class="rainier" src="images/rainier.jpg" alt="Picture of Mt Rainier and skyline" title="MOUNT RAINIER">
+    
+    <div class="section group">
+      <form name="custInfo" onsubmit="capture()">
+        <div class="col span_1_of_3">
+          <label>Please enter your email to recieve info about MT RAINIER:
+          <input type="text" name="email">
+          </label>
+            <input class="button" type="submit">
+        </div>
+        <div class="col span_1_of_3">
+          <label>Please enter your first name:
+          <input type="text" name="name">
+          </label>
+            <input class="button" type="submit">
+        </div>
+        <div class="col span_1_of_3">
+          <label>Please enter your last name:
+            <input type="text" name="last">
+          </label>
+            <input class="button" type="submit">
+        </div>
+      </form>
+    </div>    
+  </article>
+</body> 
+  
+</html>
